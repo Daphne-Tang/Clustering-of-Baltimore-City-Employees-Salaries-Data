@@ -21,8 +21,8 @@ This analysis uses Microsoft Excel to answer the following question:
 1. In the Baltimore City Employees Salaries data, filter for **Fiscal Year** column for **FY2020**. Copy and paste the filtered data into a new worksheet called **FY2020 Data**.  
 2. In the **FY2020 Data** worksheet, insert two columns to the right of **Hire Date** called **Days Worked** and **Years Worked**. 
 - Change the format of all values in the **Hire Date** column to **Short Date**. 
-- For each employee, enter the formula =TODAY()-**Hire Date** in the **Days Worked** column.
-- For each employee, enter the formula =**Days Worked**/365 in the **Years Worked** column. Make sure that the **Years Worked** value returns two decimal places. 
+- For each employee, enter the formula =TODAY()-Hire Date in the **Days Worked** column.
+- For each employee, enter the formula =Days Worked/365 in the **Years Worked** column. Make sure that the **Years Worked** value returns two decimal places. 
 
 ![alt text](https://github.com/Daphne-Tang/Clustering-of-Baltimore-City-Employees-Salaries-Data/blob/main/Screenshots%20for%20Instructions/Adding%20Days%20and%20Years%20Worked.png)
 
@@ -43,6 +43,7 @@ This analysis uses Microsoft Excel to answer the following question:
 - In the **Z-Score Annual Salary**, **Z-Score Gross Salary**, and **Z-Score Years Worked** columns, use Vlookup to find those corresponding values for each department number. 
 
 ![alt text](https://github.com/Daphne-Tang/Clustering-of-Baltimore-City-Employees-Salaries-Data/blob/main/Screenshots%20for%20Instructions/Anchor.png)
+
 9. Use the SUMXMY2 function to find the sum of squares of differences of corresponding values in two arrays: the z-score array for each department and each anchor's z-score array. 
 10. Create a column called **Min_Distance2**. For each department, use the MIN formula to find the lowest sum of squares of differences. 
 11. Use the SUM formula to find the total of the **Min_Distance2**.
