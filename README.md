@@ -15,9 +15,6 @@ This analysis uses Microsoft Excel to answer the following question:
 
 ## Data Answer
 
-
-![alt text]()
-
 ## Business Answer
 
 ## Step-by-Step Instructions
@@ -27,4 +24,14 @@ This analysis uses Microsoft Excel to answer the following question:
 - For each employee, enter the formula =TODAY()-**Hire Date** in the **Days Worked** column.
 - For each employee, enter the formula =**Days Worked**/365 in the **Years Worked** column. Make sure that the **Years Worked** value returns two decimal places. 
 
-![alt text]()
+![alt text](https://github.com/Daphne-Tang/Clustering-of-Baltimore-City-Employees-Salaries-Data/blob/main/Screenshots%20for%20Instructions/Adding%20Days%20and%20Years%20Worked.png)
+
+3. In the **FY2020 Data** worksheet, filter the **AgencyName** column for each department. Copy and paste each department's data into a separate worksheet with the title **FY2020 [Department Name].**
+4. For each department: 
+- Filter the **Annual Salary** column to make sure that there are no negative or 0 values. 
+- Filter the **Gross Pay** column to make sure that there are no negative or 0 values. 
+- Filter the **Years Worked** column to make sure that there are no impossible numbers (e.g. 120 years worked). 
+- Copy and paste the data into a new Excel workbook (**Analysis Part 2**) that has separate tabs for each department's newly filtered data.
+- Calculate the average annual salary, gross pay, and years worked for each department with the =AVERAGE() function. 
+5. In the **Analysis Part 2** workbook, create a tab called **Data**. Create a table like below that includes the average annual salary, gross pay, and years worked for each department. 
+![alt text](https://github.com/Daphne-Tang/Clustering-of-Baltimore-City-Employees-Salaries-Data/blob/main/Screenshots%20for%20Instructions/Data.png)
