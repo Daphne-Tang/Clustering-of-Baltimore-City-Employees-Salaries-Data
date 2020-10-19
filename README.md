@@ -1,10 +1,10 @@
 # Clustering-of-Baltimore-City-Employees-Salaries-Data
 
 ## Background
-The Baltimore City Government is increasingly focusing on attracting talent, but departments are facing challenges in recruitment. For instance, the [Baltimore Police Department](https://www.baltimoresun.com/maryland/baltimore-city/bs-md-ci-consent-decree-report-20200122-pth324df5vexxbrzyn7m6ebzwy-story.html) has a critical shortage of officers because more officers are leaving than joining. Recruitment and retention is crucial to ensuring that the Baltimore City Government has enough talent to sustain and improve its services, operations, and impact. Each department is in a different situation, and this analysis explores a potential cause of the discrepancies: annual and gross salaries partially depending on years worked. 
+The Baltimore City Government is increasingly focusing on attracting talent, but departments are facing challenges in retention. For instance, the [Baltimore Police Department](https://www.baltimoresun.com/maryland/baltimore-city/bs-md-ci-consent-decree-report-20200122-pth324df5vexxbrzyn7m6ebzwy-story.html) has a critical shortage of officers because more officers are leaving than joining. Retention is crucial to ensuring that the Baltimore City Government has enough talent to sustain and improve its services, operations, and impact. Each department is in a different situation, and this analysis explores a potential cause of the discrepancies: annual and gross salaries. 
 
 ## Business Question
-Could lower salaries in certain departments be contributing to recruitment and retention difficulties within the Baltimore City Government?
+Could lower salaries in certain departments be contributing to retention difficulties within the Baltimore City Government?
 
 ## Data Question - Open Data
 [Baltimore City Open Data](https://data.baltimorecity.gov) publishes datasets from Baltimore City's government departments. The purpose is to share information about Baltimore City's services, housing & development, crime, culture & arts, finances, geographics, health, neighborhoods, public safety, public works, and transportation. The open publication of data would allow for greater analysis and engagement with the community on ways to improve Baltimore City.  
@@ -54,7 +54,7 @@ The departments assigned to each anchor has similar characteristics in terms of 
 ![alt text](https://github.com/Daphne-Tang/Clustering-of-Baltimore-City-Employees-Salaries-Data/blob/main/Screenshots%20for%20Instructions/Cluster%20Visual%203.png)
 
 ## Business Answer
-The departments with the Council Services anchor demonstrate that there is the possibility that higher annual salaries and gross pay could contribute to greater number of years worked. The Liquor License anchor also shows that lower annual salaries and gross pay could result in smaller amount of years worked. However, this hypothesis does not hold exactly true for the other two anchors. More analysis is needed on the impact of annual salary and gross pay on number of years worked. 
+The departments with the Council Services anchor demonstrate that there is the possibility that higher annual salaries and gross pay could contribute to greater number of years worked. The Liquor License anchor also shows that lower annual salaries and gross pay could result in smaller amount of years worked. However, this hypothesis does not hold exactly true for the other two anchors, so more analysis is needed on the impact of annual salary and gross pay on number of years worked. In particular, a multiple linear regression could yield more insights into the relationship. Despite the need for more analysis, this preliminary hypothesis illustrates that departments with retention issues could potentially increase salaries to hire members for longer periods of time. Of course, more investigation is also required into the other factors besides wages, such as work environment or intensity, that could influence retention. 
 
 ## Step-by-Step Instructions
 1. In the Baltimore City Employees Salaries data, filter for **Fiscal Year** column for **FY2020**. Copy and paste the filtered data into a new worksheet called **FY2020 Data**.  
