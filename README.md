@@ -40,7 +40,12 @@ Enoch Pratt Library is the fourth anchor:
 - Z-Score Gross Pay: -0.76 (Low gross pay)
 - Z-Score Years Worked: -0.10 (Slightly below average years worked)
 
-The departments assigned to each anchor has similar characteristics in terms of their annual salaries, gross pay, and years worked relative to the average. 
+The departments assigned to each anchor has similar characteristics in terms of their annual salaries, gross pay, and years worked relative to the average. The following graphs visually represent the clusters. 
+
+- Cluster 1 = Council Services
+- Cluster 2 = Liquor License
+- Cluster 3 = Transportation
+- Cluster 4 = Enoch Pratt Library
 
 ![alt text](https://github.com/Daphne-Tang/Clustering-of-Baltimore-City-Employees-Salaries-Data/blob/main/Screenshots%20for%20Instructions/Cluster%20Visual%201.png)
 
@@ -49,6 +54,7 @@ The departments assigned to each anchor has similar characteristics in terms of 
 ![alt text](https://github.com/Daphne-Tang/Clustering-of-Baltimore-City-Employees-Salaries-Data/blob/main/Screenshots%20for%20Instructions/Cluster%20Visual%203.png)
 
 ## Business Answer
+The departments with the Council Services anchor demonstrate that there is the possibility that higher annual salaries and gross pay could contribute to greater number of years worked. The Liquor License anchor also shows that lower annual salaries and gross pay could result in smaller amount of years worked. 
 
 ## Step-by-Step Instructions
 1. In the Baltimore City Employees Salaries data, filter for **Fiscal Year** column for **FY2020**. Copy and paste the filtered data into a new worksheet called **FY2020 Data**.  
