@@ -1,10 +1,10 @@
 # Clustering-of-Baltimore-City-Employees-Salaries-Data
 
 ## Background
-The Baltimore City Government is increasingly focusing on attracting talent, but departments are facing challenges in recruitment. For instance, the [Baltimore Police Department](https://www.baltimoresun.com/maryland/baltimore-city/bs-md-ci-consent-decree-report-20200122-pth324df5vexxbrzyn7m6ebzwy-story.html) has a critical shortage of officers because more officers are leaving than joining. Recruitment and retention is crucial to ensuring that the Baltimore City Government has enough talent to sustain and improve its services, operations, and impact. 
+The Baltimore City Government is increasingly focusing on attracting talent, but departments are facing challenges in recruitment. For instance, the [Baltimore Police Department](https://www.baltimoresun.com/maryland/baltimore-city/bs-md-ci-consent-decree-report-20200122-pth324df5vexxbrzyn7m6ebzwy-story.html) has a critical shortage of officers because more officers are leaving than joining. Recruitment and retention is crucial to ensuring that the Baltimore City Government has enough talent to sustain and improve its services, operations, and impact. Each department is in a different situation, and this analysis explores a potential cause of the discrepancies: annual and gross salaries partially depending on years worked. 
 
 ## Business Question
-Could lower salaries in certain departments be contributing to recruitment difficulties within the Baltimore City Government?
+Could lower salaries in certain departments be contributing to recruitment and retention difficulties within the Baltimore City Government?
 
 ## Data Question - Open Data
 [Baltimore City Open Data](https://data.baltimorecity.gov) publishes datasets from Baltimore City's government departments. The purpose is to share information about Baltimore City's services, housing & development, crime, culture & arts, finances, geographics, health, neighborhoods, public safety, public works, and transportation. The open publication of data would allow for greater analysis and engagement with the community on ways to improve Baltimore City.  
@@ -16,8 +16,31 @@ This analysis uses Microsoft Excel to answer the following question:
 - How can we group departments within Baltimore City Government based on the annual salary, gross pay, and years worked of employees? 
 
 ## Data Answer
+Clustering of the data with four anchors (Council Services, Liquor License, Transportation, Enoch Pratt Library) produced the following assignments: 
 
 ![alt text](https://github.com/Daphne-Tang/Clustering-of-Baltimore-City-Employees-Salaries-Data/blob/main/Screenshots%20for%20Instructions/Department%20Assignments.png)
+
+Council Services is the first anchor: 
+- Z-Score Annual Salary: 1.43 (High annual salary)
+- Z-Score Gross Pay: 1.52 (High gross pay)
+- Z-Score Years Worked: 1.38 (High years worked)
+
+Liquor License is the second anchor: 
+- Z-Score Annual Salary: -0.20 (Slightly below average annual salary)
+- Z-Score Gross Pay: -0.28 (Slightly below average gross pay)
+- Z-Score Years Worked: -0.51 (Slightly below average years worked)
+
+Transportation is the third anchor: 
+- Z-Score Annual Salary: -1.07 (Low annual salary)
+- Z-Score Gross Pay: -0.79 (Low gross pay)
+- Z-Score Years Worked: 0.77 (High years worked)
+
+Enoch Pratt Library is the fourth anchor: 
+- Z-Score Annual Salary: -0.80 (Low annual salary)
+- Z-Score Gross Pay: -0.76 (Low gross pay)
+- Z-Score Years Worked: -0.10 (Slightly below average years worked)
+
+The departments assigned to each anchor has similar characteristics in terms of their annual salaries, gross pay, and years worked relative to the average. 
 
 ![alt text](https://github.com/Daphne-Tang/Clustering-of-Baltimore-City-Employees-Salaries-Data/blob/main/Screenshots%20for%20Instructions/Cluster%20Visual%201.png)
 
