@@ -15,6 +15,14 @@ This analysis uses Microsoft Excel to answer the following question:
 
 ## Data Answer
 
+![alt text](https://github.com/Daphne-Tang/Clustering-of-Baltimore-City-Employees-Salaries-Data/blob/main/Screenshots%20for%20Instructions/Department%20Assignments.png)
+
+![alt text](https://github.com/Daphne-Tang/Clustering-of-Baltimore-City-Employees-Salaries-Data/blob/main/Screenshots%20for%20Instructions/Cluster%20Visual%201.png)
+
+![alt text](https://github.com/Daphne-Tang/Clustering-of-Baltimore-City-Employees-Salaries-Data/blob/main/Screenshots%20for%20Instructions/Cluster%20Visual%202.png)
+
+![alt text](https://github.com/Daphne-Tang/Clustering-of-Baltimore-City-Employees-Salaries-Data/blob/main/Screenshots%20for%20Instructions/Cluster%20Visual%203.png)
+
 ## Business Answer
 
 ## Step-by-Step Instructions
