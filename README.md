@@ -54,7 +54,7 @@ The departments assigned to each anchor has similar characteristics in terms of 
 ![alt text](https://github.com/Daphne-Tang/Clustering-of-Baltimore-City-Employees-Salaries-Data/blob/main/Screenshots%20for%20Instructions/Cluster%20Visual%203.png)
 
 ## Business Answer
-The departments with the Council Services anchor demonstrate that there is the possibility that higher annual salaries and gross pay could contribute to greater number of years worked. The Liquor License anchor also shows that lower annual salaries and gross pay could result in smaller amount of years worked. 
+The departments with the Council Services anchor demonstrate that there is the possibility that higher annual salaries and gross pay could contribute to greater number of years worked. The Liquor License anchor also shows that lower annual salaries and gross pay could result in smaller amount of years worked. However, this hypothesis does not hold exactly true for the other two anchors. More analysis is needed on the impact of annual salary and gross pay on number of years worked. 
 
 ## Step-by-Step Instructions
 1. In the Baltimore City Employees Salaries data, filter for **Fiscal Year** column for **FY2020**. Copy and paste the filtered data into a new worksheet called **FY2020 Data**.  
