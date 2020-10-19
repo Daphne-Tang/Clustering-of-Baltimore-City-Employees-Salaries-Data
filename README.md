@@ -1,8 +1,10 @@
 # Clustering-of-Baltimore-City-Employees-Salaries-Data
 
 ## Background
+The Baltimore City Government is increasingly focusing on attracting talent, but departments are facing challenges in recruitment. For instance, the [Baltimore Police Department](https://www.baltimoresun.com/maryland/baltimore-city/bs-md-ci-consent-decree-report-20200122-pth324df5vexxbrzyn7m6ebzwy-story.html) has a critical shortage of officers because more officers are leaving than joining. Recruitment and retention is crucial to ensuring that the Baltimore City Government has enough talent to sustain and improve its services, operations, and impact. 
 
 ## Business Question
+Could lower salaries in certain departments be contributing to recruitment difficulties within the Baltimore City Government?
 
 ## Data Question - Open Data
 [Baltimore City Open Data](https://data.baltimorecity.gov) publishes datasets from Baltimore City's government departments. The purpose is to share information about Baltimore City's services, housing & development, crime, culture & arts, finances, geographics, health, neighborhoods, public safety, public works, and transportation. The open publication of data would allow for greater analysis and engagement with the community on ways to improve Baltimore City.  
@@ -60,4 +62,5 @@ This analysis uses Microsoft Excel to answer the following question:
 
 ![alt text](https://github.com/Daphne-Tang/Clustering-of-Baltimore-City-Employees-Salaries-Data/blob/main/Screenshots%20for%20Instructions/Cluster.png)
 
-14. Conduct a cluster analysis.
+14. Conduct a cluster analysis. In the Solver, set the maximum time limit to 60 seconds and the integer optimality to 0. 
+15. Create 3 scatterplots showing the clusters on the graphs with different colors. 
